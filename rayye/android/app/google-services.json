@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "918893539054",
+    "project_id": "rayye-4de2f",
+    "storage_bucket": "rayye-4de2f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918893539054:android:a9c687a3753201f6010dff",
+        "android_client_info": {
+          "package_name": "com.example.rayye"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX9M7tsWXMGKd6MJ5YyWPLTaQF0r4PGEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
