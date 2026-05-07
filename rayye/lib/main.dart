@@ -11,7 +11,7 @@ import 'package:rayye/views/login_view.dart';
 import 'package:rayye/views/notes/create_update_note_view.dart';
 import 'package:rayye/views/notes/notes_view.dart';
 import 'package:rayye/views/register_view.dart';
-import 'package:rayyye/views/verify_email_view.dart';
+import 'package:rayye/views/verify_email_view.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() {
