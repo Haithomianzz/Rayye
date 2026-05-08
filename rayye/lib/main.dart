@@ -18,8 +18,15 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(
-    ChangeNotifierProvider(
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ChangeNotifierProvider(
       create: (_) => IrrigationService(),
       child: MaterialApp(
         supportedLocales: AppLocalizations.supportedLocales,
@@ -32,8 +39,8 @@ void main() {
           child: const HomePage(),
         ),
       ),
-    ),
-  );
+    );
+  }
 }
 
 class HomePage extends StatelessWidget {
